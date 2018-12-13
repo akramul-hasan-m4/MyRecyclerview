@@ -4,7 +4,7 @@
 ### Add two dependencies in build.gradle file in app level 
 
 ```gradle
-	implementation 'com.android.support:recyclerview-v7:28.0.0'
+implementation 'com.android.support:recyclerview-v7:28.0.0'
     implementation 'com.android.support:cardview-v7:28.0.0'
 ```
 ` Note : compileSdkVersion 28 if you use this version `
@@ -60,8 +60,11 @@ Then Override method onCreateOptionsMenu for search
 Sample class [here](https://github.com/akramul-hasan-m4/MyRecyclerview/blob/master/app/src/main/java/search/list/com/myrecyclerview/MainActivity.java) 
 
 Layout for RecyclerView `activity_main`
+
 layout for item design `example_item`
+
 layout for search icon in menu `example_menu`
+
 `Note : create directory named menu in under res. Then example_menu placed there`
 
 
